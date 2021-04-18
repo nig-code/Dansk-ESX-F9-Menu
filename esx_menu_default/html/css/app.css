@@ -1,0 +1,103 @@
+.menu {
+	font-family: 'Roboto', sans-serif;
+	min-width: 400px;
+	color: #fff;
+
+	position: absolute;
+}
+
+.menu.align-left {
+	left: 20;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-top-left {
+	left: 20;
+	top: 235;
+}
+
+.menu.align-top {
+  left: 40;
+  top: 80;
+}
+
+.menu.align-top-right {
+	right: 10;
+	top: 40;
+}
+
+.menu.align-right {
+	right: 40;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.menu.align-bottom-right {
+	right: 15;
+	bottom: 125;
+}
+
+
+.menu.align-bottom {
+	left: 50%;
+	bottom: 40;
+	transform: translate(-50%, 0);
+}
+
+
+.menu.align-bottom-left {
+  right: 40;
+  bottom: 40;
+}
+
+.menu.align-center {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .head-default {
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #95805A;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+
+.menu .head-default * {
+	font-weight: 700;
+	font-size: 18px;
+	background-color: #95805A;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+
+.menu .menu-items {
+  max-height: 350px;
+  overflow-y: hidden;
+}
+
+.menu .menu-items .menu-item {
+	height: 40px;
+	display: block;
+	background-color: #2e2e2e;
+	color: #FFF;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+
+.menu .menu-items:nth-child(1) {
+  margin-top: 0;
+}
+
+.menu .menu-items .menu-item.selected {
+	background-color: #616161;
+}

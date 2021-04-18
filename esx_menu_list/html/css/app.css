@@ -1,0 +1,53 @@
+@font-face {
+	font-family: bankgothic;
+	src: url('../fonts/bankgothic.ttf');
+}
+
+@font-face {
+	font-family: pcdown;
+	src: url('../fonts/pdown.ttf');
+}
+
+.menu {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0px 0px 50px 0px #000;
+	overflow-y: auto;
+	max-height: 90%;
+}
+
+.menu button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menu>table {
+	border: 1px transparent;
+	border-spacing: 0;
+	min-width: 400px;
+	background-image: linear-gradient( to right, rgb(51, 153, 255, 0.65), rgb(51, 153, 255, 0.65) 40%);
+}
+
+.menu>table>thead {
+	background-image: linear-gradient( to right, rgb(5, 5, 5, 0.65), rgb(5, 5, 5, 0.65) 40%);
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+}
+
+.menu td {
+	text-align: center;
+	padding: 8px;
+}
+
+.menu tbody tr:nth-child(even) {
+	background: #CCC
+}
+
+.menu tbody tr:nth-child(odd) {
+	background: #FFF
+}

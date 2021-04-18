@@ -1,0 +1,65 @@
+Locales['en'] = {
+	-- Person Menu
+	["citizen_interactions"] 	= "Menu",
+	["vehicle_menu"]			= "Bil",
+	["id_card"]					= "IDs",
+	["handlinger"]				= "Handlinger",
+	["mobil"]					= "Telefon",
+	["funktioner"]				= "funktioner",
+	["pung"]					= "Pung",
+	["taske"]					= "Taske",
+	["animationer"]				= "Emotes",
+	["tilbeheor"]               = "Tilbehør",
+	["liftup"]                  = "Løft Person",
+	["regninger"]				= "Fakturaer",
+	["blindfold"]				= "Giv Bind For Øjnene",
+	["nobody_near"]				= "Ingen person i nærheden",
+	-- ID Menu
+	["se_dit_id"]				= "Se dit ID",
+	["vis_dit_id"]				= "Vis dit ID",
+	["se_dine_licenser"]		= "Se dine licenser",
+	["se_dit_driverslic"]		= "Se dit kørekort",
+	["vis_dit_driverslic"]		= "Vis dit kørekort",
+	["id_menu"]					= "IDs",
+	-- Handlinger Menu
+	["handlinger_menu"]			= "Handlinger",
+	-- Pung Menu
+	["pung_menu"]				= "Pung",
+	["show_money"]				= "Vis Pung",
+	["giv_penge"]				= "Giv Penge",
+	["giv_sort_penge"]			= "Giv Sorte Penge",
+	-- Køretøj Menu
+	["vehtrunk"]				= "Bagagerum",
+	["engine"]					= "Motor",
+	["doors"]					= "Døre",
+	["window"]					= "Vinduer",
+	["cruise_control"]			= "Fartpilot",
+	["shuff"]					= "Skift sæde",
+	["turned_off_engine"]		= "Motor slukket",
+	["turned_on_engine"]		= "Motor tændt",
+	-- Døre Menu
+	["hood"]					= "Hood",
+	["trunk"]					= "Trunk",
+	["front_left_door"]			= "Left front door",
+	["front_right_door"]		= "Right front door",
+	["back_left_door"]			= "Left back door",
+	["back_right_door"]			= "Right back doot",
+	["closed_hood"]				= "You closed the hood!",
+	["opened_hood"]				= "You opened the hood!",
+	["closed_door"]				= "You opened the door",
+	["opened_door"]				= "You closed the door!",
+	-- Vindu Menu
+	["window_menu"]				= "Window Menu",
+	["front_left_window"]		= "Foran V. Vindue",
+	["front_right_window"]		= "Foran H. Vindue",
+	["back_left_window"]		= "Bag V. Vindue",
+	["back_right_window"]		= "Bag H. Vindue",
+	["opened_window"]			= "You closed the window",
+	["closed_wondow"]			= "You opened the window",
+	-- Fart græse Menu
+	["disabled"]				= "Deaktiveret",
+	["disabled_cruise_control"]	= "Du deaktiverede fartpiloten",
+	-- Seatbelt
+	["seatbelt_on"]				= "",
+	["seatbelt_off"]			= ""
+}
